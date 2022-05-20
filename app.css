@@ -1,11 +1,12 @@
 #mainNav{
-background-color: rgb(169, 169, 169) !important;
+background-color: rgb(169, 169, 169) !important; /* Overriding Bootstarp backgorund color */
 }
 
 a {
     text-decoration-line: none;
 }
 
+/* CSS for webpage cover */
 #indexCoverContainer{
     background-image: url(img/gradienta-faXXUrNbH1c-unsplash.jpg);
     background-repeat: none;
@@ -18,6 +19,7 @@ a {
     justify-content: space-around;
 }
 
+/* Increase margin for desktop computer */
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     li {
@@ -26,7 +28,7 @@ a {
   }
 
   .carousel-item>img{
-      filter:brightness(50%);
+      filter:brightness(50%); /* Reduce birghtness to contrast with white text color */
       object-fit:cover;
       margin:auto;
       height: 500px;
